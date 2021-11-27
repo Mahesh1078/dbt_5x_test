@@ -1,6 +1,8 @@
 with location as
 (select _row as ROW_SEQ,
         PROVINCE,
+        LONGITUDE,
+        LATITUDE,
         country,
         "POPULATION",
         DATE
